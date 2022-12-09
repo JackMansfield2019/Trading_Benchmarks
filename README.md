@@ -52,8 +52,9 @@ I then repeated these calculations after adjusting for the risk free rate of ret
 ### Random Strategy Benchmark 
 I then computed the statistics adjusted for the risk-free rate for a randomly generated strategy on Bond and IBM where trading costs are assumed to be the same i.e.(fbond = fdell = fibm). Then for each Trading cost [0, 0.0001, 0.0002, 0.0005] I generated 1000 random strategies and produced a table of the average values of the statistics for each trading cost:
 
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/25088039/206774590-025cfcd3-73ee-4797-b27a-fbec6b0f633f.JPG?row=true" >
+  <img src="https://user-images.githubusercontent.com/25088039/206790909-ae4d29bc-77da-4cbe-95e5-30eeddc852a6.JPG?row=true" >
 </p>
 
 This serves as another bench-mark for performance, where I can see how much better my strategy performs compared to a random trading strategy and whether this difference is significant. This table also allows me to conclude 2 observations:
